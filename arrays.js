@@ -19,3 +19,6 @@ function destructivelyAddElementToEndOfArray(array, element){
   array = array.push(element)
   return array
 }
+
+array = [1,2,3,4]
+print(addElementToBeginningOfArray (array, 5))
