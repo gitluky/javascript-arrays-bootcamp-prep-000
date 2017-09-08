@@ -48,5 +48,5 @@ var array = [1,2,3,4,5]
 one = removeElementFromEndOfArray(array)
 two = array.slice(0, array.length - 1)
 three = removeElementFromEndOfArray(array)
-spliced = array.spliced(1)
+spliced = array.splice(1)
 console.log(spliced)
