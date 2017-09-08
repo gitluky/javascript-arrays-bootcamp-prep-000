@@ -47,4 +47,4 @@ function removeElementFromEndOfArray(array){
 var array = [1,2,3,4,5]
 one = removeElementFromEndOfArray(array)
 two = array.slice(0, array.length - 1)
-console.log(one == two)
+console.log(one,two)
