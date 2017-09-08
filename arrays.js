@@ -22,4 +22,4 @@ function destructivelyAddElementToEndOfArray(array, element){
 }
 
 array = [1,2,3,4]
-console.log(addElementToBeginningOfArray (array, 5))
+console.log(destructivelyAddElementToBeginningOfArray(array, 5))
