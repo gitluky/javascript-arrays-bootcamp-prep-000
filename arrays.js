@@ -12,7 +12,8 @@ function destructivelyAddElementToBeginningOfArray(array, element){
 }
 
 function addElementTOEndofArray(array, element){
-  var newArray = array.push(element)
+  var newArray = array
+  newArray.push(element)
   return newArray
 }
 
@@ -21,5 +22,3 @@ function destructivelyAddElementToEndOfArray(array, element){
   return array
 }
 
-array = [1,2,3,4]
-console.log(destructivelyAddElementToBeginningOfArray(array, 5))
