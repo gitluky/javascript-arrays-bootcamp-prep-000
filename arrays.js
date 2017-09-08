@@ -31,4 +31,4 @@ function removeElementFromBeginningOfArray(array){
 }
 
 array = [1,2,3,4,5]
-console.log(array.unshift())
+console.log(array.unshift(5))
