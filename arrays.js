@@ -30,5 +30,5 @@ function removeElementFromBeginningOfArray(array){
   return newArray
 }
 
-array = [1,2,3,4,5]
+var array = [1,2,3,4,5]
 console.log(array.push(10))
